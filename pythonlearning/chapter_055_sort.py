@@ -19,3 +19,24 @@ print(sorted_cars)
 
 for i in sorted_cars:
     print(i)
+print("---")
+
+students = [("Daniel","A",92),
+            ("Alice","C",72),
+            ("Bob","E",51),
+            ("Spongebob","B",80),
+            ("Gary","A",99)]
+
+students.sort()         # sort by name (first "column")
+print(students)
+
+for i in students:
+    print(i)
+print("---")
+
+score = lambda students : students[2]       # lambda function to get element with index 2 in tuples in "students"
+students.sort(key=score, reverse=True)
+print(students)
+
+for i in students:
+    print(i)

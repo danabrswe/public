@@ -1,0 +1,4 @@
+This text has been written by your program.
+The second line of the text starts here.
+Here's the third and last line.
+Here is another line of text!

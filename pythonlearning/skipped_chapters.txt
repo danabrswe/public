@@ -1,0 +1,2 @@
+skippter chapters in python tutorial:
+39 - quiz game
